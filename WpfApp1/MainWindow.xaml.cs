@@ -41,7 +41,7 @@ namespace WpfApp1
             if (sender is Button b)
             {
                 Title = b.Content.ToString();
-                b.Visibility = Visibility.Hidden;
+                b.Visibility = Visibility.Collapsed;
             }
         }
     }
